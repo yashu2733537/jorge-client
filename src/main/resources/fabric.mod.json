@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "jorge-client",
+  "version": "${version}",
+  "name": "Jorge Client",
+  "description": "Jorge Client - all-in-one ghost/closet hack client for Minecraft 26.3. RSHIFT to open ClickGUI.",
+  "authors": ["jorge"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.jorge.JorgeClient"]
+  },
+  "mixins": ["jorge.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
